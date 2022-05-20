@@ -5,7 +5,7 @@ from rest_framework import filters as rf
 from students.models import Student
 from biometrics.models import Scanners, ScannerRecords
 from .serializers import StudentSerializer, ScannerRecordsSerializer, UserSerializer, ScannerSerializer
-from .views import StudentFilter
+from .forms import StudentFilter
 
 User = get_user_model()
 
